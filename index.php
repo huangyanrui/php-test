@@ -19,4 +19,6 @@ spl_autoload_register('\\Lib\\Loader::autoload');
 $db = Lib\Factory::createDatabase();
 
 
+
+echo '这是';
 var_dump($db);
